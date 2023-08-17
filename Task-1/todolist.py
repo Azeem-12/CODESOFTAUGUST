@@ -54,6 +54,10 @@ listbox_task=Listbox(frame_task,bg="black",fg="white",height=15,width=50,font = 
 listbox_task.pack(side=tkinter.LEFT)
 
 #Scrolldown in case the total list exceeds the size of the given window 
+scrollbar_task=Scrollbar(frame_task)
+scrollbar_task.pack(side=tkinter.RIGHT,fill=tkinter.Y)
+listbox_task.config(yscrollcommand=scrollbar_task.set)
+scrollbar_task.config(command=listbox_task.yview)
 
 
 #Button widget 
