@@ -19,3 +19,5 @@ s.extend(list(s4))
 random.shuffle(s)
 
 print("".join(s[0:plen]))
+
+
