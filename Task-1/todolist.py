@@ -42,7 +42,7 @@ def markcompleted():
 #creating the initial window
 window=Tk()
 #giving a title
-window.title("DataFlair To_Do_APP")
+window.title("Azeem To_Do_APP")
 
 
 #Frame widget to hold the listbox and the scrollbar
